@@ -72,5 +72,12 @@ downloads; they are distributed by A&A and remain under their own terms.
 ## Citing
 
 Please cite the paper. If you use the code or data tables directly, cite
-the archived release as well; its DOI is shown on the repository's Zenodo
-record.
+the archived release as well:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22647121.svg)](https://doi.org/10.5281/zenodo.22647121)
+
+    doi:10.5281/zenodo.22647121
+
+That is the *concept* DOI: it always resolves to the newest archived
+version. Cite `10.5281/zenodo.22647123` instead if you need to pin the
+exact release accompanying the submitted manuscript.
