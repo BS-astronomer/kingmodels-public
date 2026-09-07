@@ -71,5 +71,9 @@ downloads; they are distributed by A&A and remain under their own terms.
 
 ## Citing
 
-Please cite the paper. If you use the code or data tables directly, the
-archived release also has its own DOI (see `CITATION.cff`).
+Please cite the paper. If you use the code or data tables directly, cite
+the archived release as well:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22646889.svg)](https://doi.org/10.5281/zenodo.22646889)
+
+    doi:10.5281/zenodo.22646889
