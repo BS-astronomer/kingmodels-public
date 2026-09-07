@@ -1,0 +1,24 @@
+# Python dependencies for the King-SFE semi-analytic analysis chain.
+#
+# Verified on the workstation used for the paper's analysis runs:
+#   CPython 3.13.0, Linux x86-64 (Ubuntu, kernel 6.8)
+# Every script also carries an inline `np.trapezoid = np.trapz` shim, so
+# numpy 1.x works too; the versions below are the ones actually tested.
+#
+# Run each stage script from its own numbered directory (the scripts use
+# plain sibling-module imports and write output to './').  See
+# REPRODUCTION_GUIDE.md for the run order.
+
+numpy==2.3.4
+scipy==1.16.2
+matplotlib==3.10.7
+
+# Optional: only king_sfe_analysis.verify_rho_hat_series() / verify_all()
+# import sympy, and only when run as a self-test. Not needed for any figure.
+sympy==1.14.0
+
+# Required by 00_ic_generator/gen_king_sc_fixed.py and every mc_* / df_mc_*
+# script (stages 05, 06, and diagnostics/). Compiled C++ extension; a source
+# build needs a C++ toolchain. Must be used WITHOUT physical units
+# (agama.setUnits is deliberately never called; G = M_star = r0 = 1).
+agama==1.0.157

@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+title: >-
+  Gas-star segregation and the resilience of King-family clusters
+  to gas expulsion: analysis code and data
+message: >-
+  If you use this software or the data tables, please cite the
+  accompanying paper.
+type: software
+authors:
+  - family-names: Shukirgaliyev
+    given-names: Bekdaulet
+    orcid: https://orcid.org/0000-0002-4601-7065
+    affiliation: >-
+      Nazarbayev University, Department of Physics; Energetic Cosmos
+      Laboratory, Nazarbayev University; Fesenkov Astrophysical Institute
+repository-code: https://github.com/BS-astronomer/kingmodels-public
+license: MIT
+keywords:
+  - star clusters
+  - gas expulsion
+  - star formation efficiency
+  - King models
+  - stellar dynamics
+preferred-citation:
+  type: article
+  title: >-
+    Gas-star segregation and the resilience of King-family clusters
+    to gas expulsion: a semi-analytic study
+  authors:
+    - family-names: Shukirgaliyev
+      given-names: Bekdaulet
+      orcid: https://orcid.org/0000-0002-4601-7065
+  journal: Astronomy & Astrophysics
+  year: 2026
